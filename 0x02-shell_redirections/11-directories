@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa
+find . -mindept 1 -type d | wc -1
